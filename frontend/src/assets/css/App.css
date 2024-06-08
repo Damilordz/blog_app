@@ -1,0 +1,101 @@
+.App {
+  min-height: 100vh;
+  background-color: whitesmoke;
+  padding-bottom: 4rem;
+  position: relative;
+}
+
+.navbar-brand {
+  height: 50px;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+/* Login */
+.form-wrap {
+  width: 500px !important;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-top: 3rem;
+}
+
+.create-post,
+.edit-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-wrap {
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 700px;
+}
+
+#about {
+  width: 60%;
+}
+
+.contact-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form-wrap {
+  width: 600px !important;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.footer-logo {
+  height: 35px;
+}
+
+.footer-logo img {
+  height: 100%;
+}
+
+.footer-socials a > i:hover {
+  color: #2c6ae6;
+}
+
+@media (max-width: 600px) {
+  .form-wrap {
+    width: 90% !important;
+  }
+
+  .login-btn {
+    margin-bottom: 0.5rem;
+  }
+
+  #about {
+    width: 100%;
+  }
+}
