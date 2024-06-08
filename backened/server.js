@@ -19,8 +19,7 @@ const PORT = process.env.PORT || 8000;
 // Enable CORS for all routes
 app.use(
   cors({
-    origin: "http://localhost:3000", // Allow requests from this origin
-    // origin: "https://blog-app-frontend-green.vercel.app", // Allow requests from this origin
+    origin: "https://blog-app-frontend-ashen.vercel.app", // Allow requests from this origin
     methods: ["GET", "POST", "PUT", "DELETE"], // Allowed HTTP methods
     allowedHeaders: ["Content-Type", "Authorization"], // Allowed headers
   })
